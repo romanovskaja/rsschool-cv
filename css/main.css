@@ -3,6 +3,13 @@ body {
     background-color: rgb(255,247,191);
     
 }
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
 header {
     margin: 0;
     padding: 0;
@@ -79,12 +86,16 @@ li {
     margin: 5px 0 5px 0;
 }
 footer {
-    margin: 0;
+    margin-top: auto;
     padding: 0;
     background-color:rgba(235, 173, 42, 0.925);
 }
 .wrapper-contacts {
+    padding: 0;
+    margin: auto;
     display: flex;
+    justify-content: center;
+    max-width: 1100px;
     background-color:rgba(235, 173, 42, 0.925);
 }
 .contacts_tel {
